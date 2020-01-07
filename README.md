@@ -11,3 +11,6 @@ Pressing the H key you take control of HOME team.
 Pressing the G key you take control of GUEST team.
 Pressing the R key resets the timer.
 Pressing the ESCAPE key resets the whole game.
+
+![screenshot1](https://github.com/SergiSampai/basketball-scoreboard/blob/master/screenshot/1.PNG)
+![screenshot2](https://github.com/SergiSampai/basketball-scoreboard/blob/master/screenshot/2.PNG)
