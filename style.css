@@ -1,0 +1,92 @@
+body{
+  background: url('wood.jpg') no-repeat center fixed;
+}
+
+.scoreboard-conntainer {
+  width: 100%;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.scoreboard {
+  min-width: 500px;
+  max-width: 700px;
+  width: 48vw;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.scoreboard__info {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scoreboard__controls {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.scoreboard__controls__button {
+  flex-basis: 14%;
+  flex-shrink: 1;
+  justify-content: stretch;
+  margin: 5px;
+  font-family: "Roboto Condensed", serif;
+}
+
+.text-large {
+  font-size: 3.5rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.fontRed {
+  color: rgb(230, 172, 73);
+}
+
+.scoreboard * {
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+}
+
+.font-description {
+  color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .scoreboard-conntainer {
+    padding-top: 5rem;
+  }
+
+  .scoreboard {
+    min-width: 0;
+    width: 95vh;
+  }
+
+  .scoreboard__controls {
+    flex-wrap: wrap;
+  }
+
+  .scoreboard__controls__button {
+    flex-basis: 30%;
+  }
+
+  .scoreboard__controls__start-stop {
+    flex-basis: 96%;
+  }
+}
